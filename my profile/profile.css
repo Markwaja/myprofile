@@ -1,0 +1,107 @@
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 300px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: 100px;
+}
+.name{
+    text-align: center;
+    font-style: unset;
+    font-size: 14px;
+}
+.work{
+    text-align: center;
+    
+}
+.e{
+    text-align: center;
+    background-color: rgb(193, 215, 232);
+    color: black;
+    border-radius: 5px;
+    height: 25px;
+    width: 70px;
+    border: solid;
+    border: 1px; 
+    cursor: pointer;
+}
+.face{
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 5px;
+    height: 25px;
+    width: 70px;
+    border: solid;
+    border: 1px;
+    margin-left: 4px;
+    cursor: pointer;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.e:hover{
+    background-color: white;
+}
+.e:active{
+    background-color: gray;
+}
+.face:hover{
+    background-color: lightblue;
+}
+.face:active{
+    background-color: blue;
+}
+.main1{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding-left: 70px;
+    padding-right: 10px;
+    margin-left: 200px;
+    margin-right: 170px;
+    margin-top: 100px;
+    box-shadow: 10px 10px 30px black;
+}
+.text{
+    display: inline;
+    padding-left: 20px;
+    background-color: white;
+    padding-right: 50px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: -100px;
+    margin-top: 20px;
+    width: 350px;
+    padding-bottom: 30px;
+}
+.about{
+    font-size: 10px;
+    margin-top: 1px;
+    border-top: px;
+    font-style: unset;
+}
+.c{
+    color: lightblue;
+}
+.s{
+    font-size: 20;
+}
+.in{
+    font-style: oblique;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.est{
+    font-size: large;
+    margin-top: 1px;
+}
